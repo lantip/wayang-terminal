@@ -17,7 +17,15 @@ git clone https://github.com/lantip/wayang-terminal.git
 
 ## Usage
 
-### for Intel based Architecture 
+### for Linux
+Go to `wayang-terminal` directory, and execute `wayang-linux`.
+
+```bash
+$ cd wayang-terminal
+$ wayang-linux
+```
+
+### for Mac Intel based Architecture 
 Go to `wayang-terminal` directory, and execute `wayang64`.
 
 ```bash
@@ -25,7 +33,7 @@ $ cd wayang-terminal
 $ wayang64
 ```
 
-### for arm-64 architecture
+### for Mac arm-64 based architecture
 Go to `wayang-terminal` directory, and execute `wayang`.
 
 ```bash
@@ -35,7 +43,7 @@ $ wayang
 
 #### add to .bashrc 
 
-Copy the `wayang` or `wayang64` file to `/usr/local/bin` directory, and add `wayang` (or `wayang64`) to your `.bashrc` or `.zshrc`
+Copy the `wayang` or `wayang64` or `wayang-linux` file to `/usr/local/bin` directory, and add `wayang` (or `wayang64` or `wayang-linux`) to your `.bashrc` or `.zshrc`
 
 ## Credit
 The wayang image used in this application is mainly from:
